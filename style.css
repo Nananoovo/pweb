@@ -8,7 +8,7 @@
   justify-content: center;
   font-size: 100px;
   margin: 10px;
-  border: solid brown;
+  border: solid #3c5473;
 }
 .section {
   display: flex;
@@ -20,7 +20,7 @@
   justify-content: space-around;
   margin: 0 30px;
   box-shadow: 0px 0px 21px rgba(129, 129, 129, 0.459);
-  background-color: #fff;
+  background-color: #d9b4be;
 }
 .card img {
   width: 260px;
@@ -37,3 +37,7 @@ p {
 .card image:hoover {
   cursor: pointer;
 }
+.card p {
+  color: #3c5473;
+}
+
