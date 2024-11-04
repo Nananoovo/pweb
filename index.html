@@ -6,42 +6,38 @@
 
     <title>Qiwen</title>
     <style>
-      ul {  position: fixed;
-            top: 0;
-            width: 100%; list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;}
-      li {
-            float: left;
-}
-      li a {
-            display: block;
-            color: white;
-             text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
+      .topnav {
+        overflow: hidden;
+        background-color: #5c4b51;
       }
-      li a:hover {
-  background-color: #111;
-}
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: #8cbeb2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover {
+        background-color: #363032;
+      }
     </style>
   </head>
-  <body style="margin: 0px; background-color: #011f26">
-
-    <ul>
-      <li><a class="active" href="ovo.html">Home</a></li>
-      <li><a href="links.html">Links</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
+  <body style="margin: 0px; background-color: antiquewhite">
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="links.html">Links</a>
+      <a href="contact.html">Contact</a>
+      <a href="qna.html">QnA</a>
+      <a href="innerwld.html" style="float: right">观影</a>
+    </div>
 
     <fpfp
-      style=" 
+      style="
         width: 100%;
         height: 160px;
-        background-color: #011f26;
+        background-color: antiquewhite;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -60,6 +56,7 @@
         padding: 70px;
         font-family: Georgia, serif;
         color: #025e73;
+        line-height: 1.3;
       "
     >
       <h2>个人简介</h2>
@@ -82,7 +79,7 @@
 
         目前在执行的目标、大致具体如何实现、以及这个动力是哪里来的<br />
 
-        为了不用抬头看人，使用早睡早起；十点半-7、补充蛋白质：牛奶、物理行为；游泳，摸高等行为。其实我挺想打羽毛球的。<br />
+        为了不用抬头看人，使用早睡早起；十点半-7、补充蛋白质：牛奶、物理行为；摸高等行为。其实我挺想打羽毛球的。<br />
 
         Motivated by not having to look up at people.<br /><br />
 
@@ -93,7 +90,8 @@
 
         -在想着研发一个简单的软件，给自己当calender/quest board+记录event<br />
 
-        本人的语言表达能力已经大幅降低，到小学水平了甚至是，望谅解 <br />运动/健身<br />
+        本人的语言表达能力已经大幅降低，到小学水平了甚至是，望谅解
+        <br />运动/健身<br />
 
         T……T<br />
 
@@ -119,7 +117,23 @@
         除了手术类的医学和纯理科，不知道、可能会有一堆副业，应该能活着吧，都副业了应该喜欢吧，到时候在回答。其实我想了一下当老师也挺好，除了不赚钱T^T。<br />
         <br />
 
-        好就这样把，自己去探索去 这段自我介绍可能过两天就不放主页了ovo
+        好就这样把，自己去探索去 <br /><br /><br />
+        11.02 update or sth to say to someone<br /><br />
+        这个网页，是个html和css的练手，下面还有一个js的入门尝试<br />
+        超级0含金量，但基本是我目前阶段的内心世界，希望我明年看到不会嘲笑我自己。<br />
+        在很多地方藏了一堆黑历史，还好是藏起来的，不然我现在已经开始后悔了<br />
+        我在月初决定了给自己一点时间，不打游戏的认真学习一段时间。其实也没什么用，强制自己戒断情感罢了。但不得不说，确实没时间玩游戏。如果我不找个借口拒绝我朋友们的话，包一天二十小时都在玩瓦<br />
+        还有我突然想画画了 还有我突然想剪日系刘海了<br />
+        如果你看到我上面说的借口了，没错。我键盘坏了是乱说的，我没想到人家真信了，我再说其实我开玩笑的感觉会很，恶心。对不起我不应该骗你的，如果你觉得这个对不起很敷衍的话<br /><br />
+        我脱口而出的道歉如男人下跪一般，没有含金量<br />
+        但如果我是支支吾吾，不好意思说的话，我真的认真在反省<br />
+        <br />
+        虽然也是没几个人有过的待遇<br /><br />
+
+        写观影界面<br />
+        为什么我看的番如此现充<br />
+        感觉把名字写上去的那一刻已经被自己出警了
+        <br />看的剧也一样。 <br />我的内心世界比我听的歌还肤浅啊，算了
       </p>
     </div>
     <div
@@ -134,19 +148,24 @@
     >
       <a
         href="links.html"
-        target="_blank"
-        style="font-size: 20px; color: aliceblue"
+        target="_self"
+        style="font-size: 20px; color: #026873"
         >My links o(´^｀)o
       </a>
       <br />
       <br />
       <a
         href="https://drive.google.com/drive/folders/1d0HcT4Aj9vbJ6IthAFnM6QC4C2dc9GzO?usp=sharing"
-        target="_blank"
-        style="font-size: 20px; color: aliceblue"
+        target="_self"
+        style="font-size: 20px; color: #026873"
         >Photo dumps</a
-        <br><br>
-        <a href="Java.html" target="_blank" style="font-size: 20px; color: aliceblue">TRYING</a>
+      >
+      <br /><br />
+      <a
+        href="Java.html"
+        target="_blank"
+        style="font-size: 20px; color: #026873"
+        >TRYING</a
       >
     </div>
   </body>
