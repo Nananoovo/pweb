@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InnerWrld</title>
+    <style>
+      .header {
+        background-color: #bfa98e;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+      .secheader {
+        background-color: #f2dcc2;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+      .row {
+        display: -webkit-flex;
+        display: flex;
+      }
+      .column {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding: 10px;
+        height: 300px;
+        border-right-color: white;
+        border-right-width: 2px;
+      }
+      .column li {
+        line-height: 1.2;
+        list-style: disc;
+      }
+
+      .comment {
+        display: grid;
+        grid-template-columns: 610px 610px 610px;
+        grid-template-rows: 80px 200px;
+        gap: 10px;
+        background-color: #f2dcc2;
+        padding: 10px;
+        overflow: scroll;
+      }
+      .comment-a {
+        display: grid;
+        grid-template-columns: 610px 610px 610px;
+        grid-template-rows: 80px 200px;
+        gap: 10px;
+        background-color: #f2dcc2;
+        padding: 10px;
+        overflow: scroll;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .comment > div {
+        background-color: #fff5e1;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 25px;
+        font-family: NSimSun;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .comment-a > div {
+        background-color: #fff5e1;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 25px;
+        font-family: NSimSun;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .topnav {
+        overflow: hidden;
+        background-color: #5c4b51;
+      }
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: #8cbeb2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .topnav a:hover {
+        background-color: #363032;
+      }
+      .ccoment {
+        font-size: 16px;
+        margin-left: 2px;
+        margin-right: 2px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #f2dcc2">
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="links.html">Links</a>
+      <a href="contact.html">Contact</a>
+      <a href="qna.html">QnA</a>
+      <a href="innerwld.html" style="float: right">观影</a>
+    </div>
+    <div class="header">
+      This is my inner world, includes lists to watch and comments on
+      watched/read
+    </div>
+
+    <div class="secheader">To watch</div>
+
+    <div class="row">
+      <div class="column" style="background-color: antiquewhite">
+        <h2 style="text-align: center">Book</h2>
+        <li>嫌疑人X的献身 (看了30%)</li>
+        <li>贩罪（没看完）</li>
+      </div>
+
+      <div class="column" style="background-color: antiquewhite">
+        <h2 style="text-align: center">Movie</h2>
+        <li>Look back</li>
+        <li>花束般的恋爱</li>
+        <li>Smile</li>
+      </div>
+
+      <div class="column" style="background-color: antiquewhite">
+        <h2 style="text-align: center">Show</h2>
+        <li>Sherlock</li>
+        <li>Peaky Blinderes</li>
+        <li>Breaking bad...?</li>
+        <li>Severance</li>
+      </div>
+
+      <div class="column" style="background-color: antiquewhite">
+        <h2 style="text-align: center">Anime</h2>
+        <li>胆大党</li>
+        <li>迷宫饭</li>
+        <li>葬送的芙莉莲 （好像第16集，感觉不知道什么时候会补完）</li>
+        <li>Free!</li>
+      </div>
+    </div>
+
+    <div class="secheader" style="margin-top: 20px">Comments on Watched</div>
+    <h3>NOVEL</h3>
+    <div class="comment">
+      <div>诡秘之主</div>
+      <div>惊悚乐园</div>
+      <div>被讨厌的勇气</div>
+      <div>
+        <div class="ccoment">
+          好看，看不懂，会二刷的，后面有点太急了，前面的推进又太慢，中途还有点拖节奏。前前后后两年内才看完。
+        </div>
+      </div>
+      <div>
+        <p class="ccoment">
+          唯一主动三刷的书，因为这本书喜欢上了，甚至想去补dc的漫画，电影和世界观
+        </p>
+      </div>
+      <div>
+        <p class="ccoment">
+          啊哈哈哈很有意思的一本，大概就是如何改变过去的一本书，总结大概是<br />
+          Self love and Fuck everyone else thanks yall
+        </p>
+      </div>
+    </div>
+    <h3>SHOWS</h3>
+    <div class="comment-a">
+      <div>SHAMELESS</div>
+      <div>Gossip Girls</div>
+      <div>我真的不追剧。</div>
+      <div>
+        <p class="ccoment">性是我看这剧的原因，也是后面这部剧最无趣的东西</p>
+      </div>
+      <div><p class="ccoment">GG 一般 下饭剧</p></div>
+      <div>
+        <p class="ccoment">
+          Every episode is like a movie length, way too long. I'll motivated
+          myself somedays in the morning
+        </p>
+      </div>
+    </div>
+    <h3>Anime-避雷</h3>
+    <div class="comment-a">
+      <div>Oshi no Ko</div>
+      <div>僵尸百分百</div>
+      <div></div>
+      <div>
+        <p class="ccoment">经典我推，音乐神了，剧情跟往我嘴里灌⑩一样恶心</p>
+      </div>
+      <div>
+        <p class="ccoment">
+          前面还是不错的，女主好看，男主也不是无脑开挂。但是后面硬生生给男主产生挫折，坏，大男主番哪怕后面复仇回来了我也不想看
+        </p>
+      </div>
+      <div><p class="ccoment"></p></div>
+    </div>
+
+    <h3>Anime</h3>
+    <div class="comment-a">
+      <div>Nier Automata</div>
+      <div>Haikyuu</div>
+      <div>山田lv999的恋爱</div>
+      <div>
+        <p class="ccoment">还不错，不记得剧情了。</p>
+      </div>
+      <div>
+        <p class="ccoment">cHANCE BALL！</p>
+      </div>
+      <div>
+        <p class="ccoment">
+          好看，很甜，这辈子谈不上。说到这个，宅男腐女的恋爱的真人版我也想看来着。怎么有一半是日本的，坏了成罕见了这下
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
